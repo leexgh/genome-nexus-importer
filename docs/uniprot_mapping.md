@@ -18,7 +18,6 @@
 - GRCh37: https://docs.google.com/spreadsheets/d/14PN6RtFq_GTAu8OKNUyUNKJ_fj7OlcEhDjbMdapqqo8/edit#gid=0
 - GRCh38: https://docs.google.com/spreadsheets/d/1slDx9zorUuA-xsmH1i9_6CIGjQB1GIgDlWDU5gw6f9I/edit#gid=0
 
-
 ### 2. Mapping
 ##### 2.1. Get all transcript ids - `df_transcript`
 - columns: enst_id, ensp_id, ensembl_protein_length, ccds_id, uniprot_id
@@ -34,4 +33,34 @@
 - First extract "uniprot_id" from "uniprot_id_with_isoform", which would be the substring before "-"(e.g. for "Q9Y3S1-3", we will compare "Q9Y3S1" with biomart uniprot, because biomart uniprot doesn't have isoform). If they match then return true in column "is_matched", otherwise return false.
 - add results to column: is_matched
 ##### 2.7. Curation
-- 
+- 2.7.1 If only one uniprot id in "uniprot_id_with_isoform"
+    - if uniprot id = biomart uniprot id: use uniprot id
+- 2.7.2 If multiple uniprot ids in "uniprot_id_with_isoform"
+    - if biomart uniprot id is one of the uniprot ids: use corresponding uniprot id (biomart uniprot id + isoform)
+- 2.7.3 If this transcript was manually curated before (record as "step 2.1.2" and "step 2.2.1" in comment, in file 1.7)
+    - what ever mapping result is, use previous mapping id
+    - add results to column: final_mapping
+##### 2.8. Mark columns that needs manual curation
+- "is_matched" = True, "final_mapping" is empty: no need for manual curation. e.g. no ensp_id available, or both biomart and sequence matching have nothing returned.
+- "is_matched" = True, "final_mapping" is not empty: no need for manual curation. e.g. match successfully by sequence.
+- "is_matched" = False, "final_mapping" is empty: need manual curation. e.g. mostly no sequence matching but have biomart matching, sometimes have sequence matching but no biomart matching
+- "is_matched" = False, "final_mapping" is not empty: no need for manual curation. e.g. match successfully by one of the curation steps. 
+- exceptions:
+    - have sequence matching(usually it's one of the isoforms), no biomart matching, but on ensembl web page it has uniprot matching, but id matching by sequence and ensembl web page are different. e.g. ENST00000293826 ENSP00000293826: [ensembl](http://useast.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=ENSG00000248871;r=17:7549099-7561601;t=ENST00000293826) matches to A0A0A6YY99 and [biomart](http://uswest.ensembl.org/biomart/martview/6b3967a8b19ef08ea5e9574e4fd5972a?VIRTUALSCHEMANAME=default&ATTRIBUTES=hsapiens_gene_ensembl.default.feature_page.ensembl_gene_id|hsapiens_gene_ensembl.default.feature_page.ensembl_gene_id_version|hsapiens_gene_ensembl.default.feature_page.ensembl_transcript_id|hsapiens_gene_ensembl.default.feature_page.ensembl_transcript_id_version|hsapiens_gene_ensembl.default.feature_page.uniprotswissprot|hsapiens_gene_ensembl.default.feature_page.ensembl_peptide_id|hsapiens_gene_ensembl.default.feature_page.ensembl_peptide_id_version&FILTERS=hsapiens_gene_ensembl.default.filters.ensembl_peptide_id."ENSP00000293826"&VISIBLEPANEL=resultspanel) matches with nothing, by sequence it's O43508-2
+##### 2.9. Get all uniprot ids that couldn't map to a transcript
+- Generate a dictionary with all uniprot ids that sussessfully mapping to a transcript - `uniprot_in_transcript_list`
+- Generate a uniprot dataframe with all uniprot ids(1.1) - `df_all_uniprot_with_isoform`
+    - columns: uniprot_id, gene 
+- Go over all available uniprot ids and check if the uniprot id matches with a transcript
+    - add results to column: matched 
+- Go over all available uniprot ids and check if this uniprot id matches with it's canonical isoform (probably not useful)
+    - add results to column: match_with_canonical
+- Check if the uniprot id is a cancer gene, return true for cancer genes
+    - add results to column: is_cancer_gene
+
+##### 2.10. Find sequence difference for uniprot ids that couldn't match
+- Generate a dictionary from transcript dataframe: biomart uniprot id to ensp - `uniprot_to_ensp_dict`
+- Find potantial ensp ids for uniprot ids that couldn't match by lookup in uniprot_to_ensp_dict
+    - add results to column: ensp_from_biomart
+- For each ensp in column "ensp_from_biomart", find sequence difference between ensembl sequence and uniprot sequence
+    - add retuslts to column: sequence_difference
