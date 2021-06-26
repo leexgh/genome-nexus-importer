@@ -41,12 +41,18 @@
     - what ever mapping result is, use previous mapping id
     - add results to column: final_mapping
 ##### 2.8. Mark columns that needs manual curation
-- "is_matched" = True, "final_mapping" is empty: no need for manual curation. e.g. no ensp_id available, or both biomart and sequence matching have nothing returned.
-- "is_matched" = True, "final_mapping" is not empty: no need for manual curation. e.g. match successfully by sequence.
-- "is_matched" = False, "final_mapping" is empty: need manual curation. e.g. mostly no sequence matching but have biomart matching, sometimes have sequence matching but no biomart matching
-- "is_matched" = False, "final_mapping" is not empty: no need for manual curation. e.g. match successfully by one of the curation steps. 
+- "is_matched" = True, "final_mapping" is empty: 
+    - case 1: no ensp_id - no need for manual curation
+    - case 2: both biomart and sequence matching have nothing returned - no need for manual curation
+- "is_matched" = True, "final_mapping" is not empty: 
+    - case 1: match successfully by sequence, and have only one uniprot sequence matching - no need for manual curation.
+- "is_matched" = False, "final_mapping" is empty: 
+    - case 1: need manual curation. e.g. mostly no sequence matching but have biomart matching, sometimes have sequence matching but no biomart matching
+- "is_matched" = False, "final_mapping" is not empty: 
+    - no biomart uniprot id, have sequence matching
+    - 
 - exceptions:
-    - have sequence matching(usually it's one of the isoforms), no biomart matching, but on ensembl web page it has uniprot matching, but id matching by sequence and ensembl web page are different. e.g. ENST00000293826 ENSP00000293826: [ensembl](http://useast.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=ENSG00000248871;r=17:7549099-7561601;t=ENST00000293826) matches to A0A0A6YY99 and [biomart](http://uswest.ensembl.org/biomart/martview/6b3967a8b19ef08ea5e9574e4fd5972a?VIRTUALSCHEMANAME=default&ATTRIBUTES=hsapiens_gene_ensembl.default.feature_page.ensembl_gene_id|hsapiens_gene_ensembl.default.feature_page.ensembl_gene_id_version|hsapiens_gene_ensembl.default.feature_page.ensembl_transcript_id|hsapiens_gene_ensembl.default.feature_page.ensembl_transcript_id_version|hsapiens_gene_ensembl.default.feature_page.uniprotswissprot|hsapiens_gene_ensembl.default.feature_page.ensembl_peptide_id|hsapiens_gene_ensembl.default.feature_page.ensembl_peptide_id_version&FILTERS=hsapiens_gene_ensembl.default.filters.ensembl_peptide_id."ENSP00000293826"&VISIBLEPANEL=resultspanel) matches with nothing, by sequence it's O43508-2
+    - have sequence matching(usually it's matching with one of the isoforms, not the canonical sequence), no biomart matching, but on ensembl web page it has uniprot matching, but id matching by sequence and ensembl web page are different. e.g. ENST00000293826 ENSP00000293826: [ensembl](http://useast.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=ENSG00000248871;r=17:7549099-7561601;t=ENST00000293826) matches to A0A0A6YY99 and [biomart](http://uswest.ensembl.org/biomart/martview/6b3967a8b19ef08ea5e9574e4fd5972a?VIRTUALSCHEMANAME=default&ATTRIBUTES=hsapiens_gene_ensembl.default.feature_page.ensembl_gene_id|hsapiens_gene_ensembl.default.feature_page.ensembl_gene_id_version|hsapiens_gene_ensembl.default.feature_page.ensembl_transcript_id|hsapiens_gene_ensembl.default.feature_page.ensembl_transcript_id_version|hsapiens_gene_ensembl.default.feature_page.uniprotswissprot|hsapiens_gene_ensembl.default.feature_page.ensembl_peptide_id|hsapiens_gene_ensembl.default.feature_page.ensembl_peptide_id_version&FILTERS=hsapiens_gene_ensembl.default.filters.ensembl_peptide_id."ENSP00000293826"&VISIBLEPANEL=resultspanel) matches with nothing, by sequence it's O43508-2
 ##### 2.9. Get all uniprot ids that couldn't map to a transcript
 - Generate a dictionary with all uniprot ids that sussessfully mapping to a transcript - `uniprot_in_transcript_list`
 - Generate a uniprot dataframe with all uniprot ids(1.1) - `df_all_uniprot_with_isoform`
@@ -59,8 +65,11 @@
     - add results to column: is_cancer_gene
 
 ##### 2.10. Find sequence difference for uniprot ids that couldn't match
-- Generate a dictionary from transcript dataframe: biomart uniprot id to ensp - `uniprot_to_ensp_dict`
-- Find potantial ensp ids for uniprot ids that couldn't match by lookup in uniprot_to_ensp_dict
+- Generate a dictionary from transcript dataframe: biomart uniprot id to ensp - `uniprot_to_ensp_dict`.
+- Find potential ensp ids for uniprot ids that couldn't match by lookup in uniprot_to_ensp_dict
     - add results to column: ensp_from_biomart
-- For each ensp in column "ensp_from_biomart", find sequence difference between ensembl sequence and uniprot sequence
+- For each ensp in column "ensp_from_biomart", find sequence difference between ensembl sequence and uniprot sequence. Because from biomart it's corresonding uniprot id doesn't have isoform, so we also check all isoforms associate with this uniprot id. If an isoform of uniprot sequence could match, we print out 
     - add retuslts to column: sequence_difference
+
+### 3. Todo list
+- 
