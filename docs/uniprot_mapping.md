@@ -33,6 +33,7 @@
 - First extract "uniprot_id" from "uniprot_id_with_isoform", which would be the substring before "-"(e.g. for "Q9Y3S1-3", we will compare "Q9Y3S1" with biomart uniprot, because biomart uniprot doesn't have isoform). If they match then return true in column "is_matched", otherwise return false.
 - add results to column: is_matched
 ##### 2.7. Curation
+- sequence
 - 2.7.1 If only one uniprot id in "uniprot_id_with_isoform"
     - if uniprot id = biomart uniprot id: use uniprot id
 - 2.7.2 If multiple uniprot ids in "uniprot_id_with_isoform"
