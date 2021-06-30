@@ -73,4 +73,5 @@
     - add retuslts to column: sequence_difference
 
 ### 3. Todo list
-- 
+- mapping by sequence length
+- cross reference on uniprot
