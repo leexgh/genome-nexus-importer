@@ -33,10 +33,10 @@
 - First extract "uniprot_id" from "uniprot_id_with_isoform", which would be the substring before "-"(e.g. for "Q9Y3S1-3", we will compare "Q9Y3S1" with biomart uniprot, because biomart uniprot doesn't have isoform). If they match then return true in column "is_matched", otherwise return false.
 - add results to column: is_matched
 ##### 2.7. Curation
-- sequence
 - 2.7.1 If only one uniprot id in "uniprot_id_with_isoform"
-    - if uniprot id = biomart uniprot id: use uniprot id
+    - use "uniprot_id_with_isoform" as final mapping id
 - 2.7.2 If multiple uniprot ids in "uniprot_id_with_isoform"
+    - try to find uniprot sequence with the same length and levenshtein distance == 1(todo)
     - if biomart uniprot id is one of the uniprot ids: use corresponding uniprot id (biomart uniprot id + isoform)
 - 2.7.3 If this transcript was manually curated before (record as "step 2.1.2" and "step 2.2.1" in comment, in file 1.7)
     - what ever mapping result is, use previous mapping id
@@ -48,12 +48,12 @@
 - "is_matched" = True, "final_mapping" is not empty: 
     - case 1: match successfully by sequence, and have only one uniprot sequence matching - no need for manual curation.
 - "is_matched" = False, "final_mapping" is empty: 
-    - case 1: need manual curation. e.g. mostly no sequence matching but have biomart matching, sometimes have sequence matching but no biomart matching
+    - case 1: couldn't get any mapping - need manual curation
 - "is_matched" = False, "final_mapping" is not empty: 
-    - no biomart uniprot id, have sequence matching
-    - 
+    - case 1: have mapping results by one of the curation steps - no need for manual curation.
 - exceptions:
-    - have sequence matching(usually it's matching with one of the isoforms, not the canonical sequence), no biomart matching, but on ensembl web page it has uniprot matching, but id matching by sequence and ensembl web page are different. e.g. ENST00000293826 ENSP00000293826: [ensembl](http://useast.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=ENSG00000248871;r=17:7549099-7561601;t=ENST00000293826) matches to A0A0A6YY99 and [biomart](http://uswest.ensembl.org/biomart/martview/6b3967a8b19ef08ea5e9574e4fd5972a?VIRTUALSCHEMANAME=default&ATTRIBUTES=hsapiens_gene_ensembl.default.feature_page.ensembl_gene_id|hsapiens_gene_ensembl.default.feature_page.ensembl_gene_id_version|hsapiens_gene_ensembl.default.feature_page.ensembl_transcript_id|hsapiens_gene_ensembl.default.feature_page.ensembl_transcript_id_version|hsapiens_gene_ensembl.default.feature_page.uniprotswissprot|hsapiens_gene_ensembl.default.feature_page.ensembl_peptide_id|hsapiens_gene_ensembl.default.feature_page.ensembl_peptide_id_version&FILTERS=hsapiens_gene_ensembl.default.filters.ensembl_peptide_id."ENSP00000293826"&VISIBLEPANEL=resultspanel) matches with nothing, by sequence it's O43508-2
+    - have sequence matching(usually it's matching with one of the isoforms, not the canonical sequence), no biomart matching, on ensembl web page it has uniprot matching, but id matching by sequence and ensembl web page are different. e.g. ENST00000293826 ENSP00000293826: [ensembl](http://useast.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=ENSG00000248871;r=17:7549099-7561601;t=ENST00000293826) matches to A0A0A6YY99 and [biomart](http://uswest.ensembl.org/biomart/martview/6b3967a8b19ef08ea5e9574e4fd5972a?VIRTUALSCHEMANAME=default&ATTRIBUTES=hsapiens_gene_ensembl.default.feature_page.ensembl_gene_id|hsapiens_gene_ensembl.default.feature_page.ensembl_gene_id_version|hsapiens_gene_ensembl.default.feature_page.ensembl_transcript_id|hsapiens_gene_ensembl.default.feature_page.ensembl_transcript_id_version|hsapiens_gene_ensembl.default.feature_page.uniprotswissprot|hsapiens_gene_ensembl.default.feature_page.ensembl_peptide_id|hsapiens_gene_ensembl.default.feature_page.ensembl_peptide_id_version&FILTERS=hsapiens_gene_ensembl.default.filters.ensembl_peptide_id."ENSP00000293826"&VISIBLEPANEL=resultspanel) matches with nothing, by sequence it's O43508-2
+- add results to column: need_manual_curation
 ##### 2.9. Get all uniprot ids that couldn't map to a transcript
 - Generate a dictionary with all uniprot ids that sussessfully mapping to a transcript - `uniprot_in_transcript_list`
 - Generate a uniprot dataframe with all uniprot ids(1.1) - `df_all_uniprot_with_isoform`
