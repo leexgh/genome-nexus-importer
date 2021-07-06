@@ -38,7 +38,7 @@
 - If multiple uniprot ids in "uniprot_id_with_isoform"
     - 2.7.2 if biomart uniprot id is one of the uniprot ids: use corresponding uniprot id (biomart uniprot id + isoform) 
     - 2.7.3 if no results got from above(), try to find uniprot sequence with the same length and levenshtein distance == 1
-      - if multiple uniprot ids were mapping by sequence length, apply "2.7.2" to find a single mapping. If no single uniprot id could be mapped by "2.7.2", leave it empty
+      - it's possible that multiple uniprot ids are found by sequence length, for now I don't see any of them, but it's better to handle it as well (TODO)
 - 2.7.4 if no uniprot id in "uniprot_id_with_isoform", try to find uniprot sequence with the same length and levenshtein distance == 1
     - if multiple uniprot ids were mapping by sequence length, apply "2.7.2" to find a single mapping. If no single uniprot id could be mapped by "2.7.2", leave it empty
 - 2.7.5 (Do we want this?)If this transcript was manually curated before (record as "step 2.1.2" and "step 2.2.1" in comment, in file 1.7)
