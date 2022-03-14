@@ -30,10 +30,10 @@ jobs:
           pull_image_and_stages: false
   
   build_and_publish_grch38:
-    if: github.repository == 'genome-nexus/genome-nexus-importer'
+    # if: github.repository == 'genome-nexus/genome-nexus-importer'
     runs-on: ubuntu-latest
     env:
-      Version: grch38_ensembl95
+      Version: grch38_ensembl95_1
     steps:
       - name: 'Checkout git repo'
         uses: actions/checkout@v1
@@ -47,6 +47,52 @@ jobs:
         with:
           username: "${{ secrets.DOCKER_USERNAME }}"
           password: "${{ secrets.DOCKER_PASSWORD }}"
-          image_name: genomenexus/gn-mongo
+          image_name: leexdocker/gn-mongodb
+          image_tag: ${{ steps.extract_tag.outputs.image_tag_name }}
+          pull_image_and_stages: false
+
+  build_and_publish_grch383:
+    # if: github.repository == 'genome-nexus/genome-nexus-importer'
+    runs-on: ubuntu-latest
+    env:
+      Version: grch38_ensembl95_3
+    steps:
+      - name: 'Checkout git repo'
+        uses: actions/checkout@v1
+      - name: Extract branch or tag name
+        # The GITHUB_REF variable is like "refs/head/branch_name"
+        # The format of image tag is e.g. v0.12_grch38_ensembl95
+        run: echo "##[set-output name=image_tag_name;]${GITHUB_REF##*/}_${Version}"
+        id: extract_tag
+      - name: 'Docker build with cache'
+        uses: whoan/docker-build-with-cache-action@v5
+        with:
+          build_extra_args: '{"--build-arg": "ARG_REF_ENSEMBL_VERSION=grch38_ensembl95"}'
+          username: "${{ secrets.DOCKER_USERNAME }}"
+          password: "${{ secrets.DOCKER_PASSWORD }}"
+          image_name: leexdocker/gn-mongodb
+          image_tag: ${{ steps.extract_tag.outputs.image_tag_name }}
+          pull_image_and_stages: false
+
+  build_and_publish_grch384:
+    # if: github.repository == 'genome-nexus/genome-nexus-importer'
+    runs-on: ubuntu-latest
+    env:
+      Version: grch38_ensembl95_4
+    steps:
+      - name: 'Checkout git repo'
+        uses: actions/checkout@v1
+      - name: Extract branch or tag name
+        # The GITHUB_REF variable is like "refs/head/branch_name"
+        # The format of image tag is e.g. v0.12_grch38_ensembl95
+        run: echo "##[set-output name=image_tag_name;]${GITHUB_REF##*/}_${Version}"
+        id: extract_tag
+      - name: 'Docker build with cache'
+        uses: whoan/docker-build-with-cache-action@v5
+        with:
+          build_extra_args: '{"--build-arg": "ARG_REF_ENSEMBL_VERSION=grch38_ensembl95"}'
+          username: "${{ secrets.DOCKER_USERNAME }}"
+          password: "${{ secrets.DOCKER_PASSWORD }}"
+          image_name: leexdocker/gn-mongodb
           image_tag: ${{ steps.extract_tag.outputs.image_tag_name }}
           pull_image_and_stages: false
