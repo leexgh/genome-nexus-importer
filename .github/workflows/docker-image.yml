@@ -30,7 +30,7 @@ jobs:
           pull_image_and_stages: false
   
   build_and_publish_grch38:
-    if: github.repository == 'genome-nexus/genome-nexus-importer'
+    # if: github.repository == 'genome-nexus/genome-nexus-importer'
     runs-on: ubuntu-latest
     env:
       Version: grch38_ensembl95
@@ -40,7 +40,7 @@ jobs:
       - name: Extract branch or tag name
         # The GITHUB_REF variable is like "refs/head/branch_name"
         # The format of image tag is e.g. v0.12_grch38_ensembl95
-        run: echo "##[set-output name=image_tag_name;]${GITHUB_REF##*/}_${Version}"
+        run: echo "##[set-output name=image_tag_name;]${GITHUB_REF##*/}_${Version}_without_run_without_drop_without_uri_less_import"
         id: extract_tag
       - name: 'Docker build with cache'
         uses: whoan/docker-build-with-cache-action@v5
@@ -48,6 +48,6 @@ jobs:
           build_extra_args: '{"--build-arg": "ARG_REF_ENSEMBL_VERSION=grch38_ensembl95"}'
           username: "${{ secrets.DOCKER_USERNAME }}"
           password: "${{ secrets.DOCKER_PASSWORD }}"
-          image_name: genomenexus/gn-mongo
+          image_name: leexdocker/gn-mongodb
           image_tag: ${{ steps.extract_tag.outputs.image_tag_name }}
           pull_image_and_stages: false
