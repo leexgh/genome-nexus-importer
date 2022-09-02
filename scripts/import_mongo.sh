@@ -30,8 +30,8 @@ import() {
     file=$2
     extraoptions=$3
 
-    # mongoimport --uri ${MONGO_URI} --collection $collection $extraoptions --file $file
-    mongoimport --host=127.0.0.1 --port=27017 --username=root --password ${MONGODB_ROOT_PASSWORD} --collection $collection --db=annotator --authenticationDatabase=admin $extraoptions --file $file
+    mongoimport --uri ${MONGO_URI} --collection $collection $extraoptions --file $file
+    # mongoimport --host=127.0.0.1 --port=27017 --username=root --password ${MONGODB_ROOT_PASSWORD} --collection $collection --db=annotator --authenticationDatabase=admin $extraoptions --file $file
 }
 
 if [[ ! -d "${DIR}/../data/${REF_ENSEMBL_VERSION}" ]]; then

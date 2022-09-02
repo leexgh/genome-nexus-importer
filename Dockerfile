@@ -10,13 +10,16 @@ FROM bitnami/mongodb:${MONGODBVERSION} as build
 USER root
 RUN mkdir -p /data
 COPY data/ /data/
+RUN mkdir -p /scripts
+COPY scripts/import_mongo.sh /scripts/
 USER 1001
 
 ARG ARG_REF_ENSEMBL_VERSION
 ENV REF_ENSEMBL_VERSION=${ARG_REF_ENSEMBL_VERSION}
 
 # Import data into mongodb
-COPY scripts/import_mongo.sh /docker-entrypoint-initdb.d/
+# COPY scripts/import_mongo.sh /docker-entrypoint-initdb.d/
+
 # RUN /setup.sh
 
 # FROM bitnami/mongodb:${MONGODBVERSION}
