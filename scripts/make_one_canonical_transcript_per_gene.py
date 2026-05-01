@@ -207,6 +207,16 @@ def main(ensembl_biomart_geneids_transcript_info,
         .set_index('gene_name'.split())
     hgnc_df = pd.read_csv(hgnc_complete_set, sep='\t', dtype=object)
 
+    # Check for invalid characters in the 'symbol' column
+    if 'symbol' in hgnc_df.columns:
+        invalid_mask = hgnc_df['symbol'].str.contains(r'[^a-zA-Z0-9@_\-]', na=False)
+        if invalid_mask.any():
+            invalid_symbols = hgnc_df.loc[invalid_mask, 'symbol'].unique()
+            print("The following genes have invalid characters in their symbols and need further checking:")
+            for sym in invalid_symbols:
+                print(sym)
+            raise ValueError(f"Found {len(invalid_symbols)} invalid symbols.")
+
     # Convert new column names to old stable column names. If this is not done properly, Genome Nexus and any other
     # downstream applications break
     # TODO: Update Genome Nexus to accept the latest HGNC column names so that remapping is not necessary.
