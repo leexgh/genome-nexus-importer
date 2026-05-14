@@ -42,7 +42,7 @@ GENOME_BUILD=$(firstword $(subst _, ,$(VERSION)))
 
 # OncoKB version. Used for downloading OncoKB cancer gene list. 
 # Check OncoKB website for the latest version number.
-ONCOKB_VERSION=v5.3
+ONCOKB_VERSION=v7.1
 
 ifeq ($(GENOME_BUILD), grch38)
   MSKCC_ISOFORM_OVERRIDES_FILE_NAME=isoform_overrides_at_mskcc_grch38.txt
