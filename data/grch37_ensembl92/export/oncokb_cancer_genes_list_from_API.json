@@ -1232,7 +1232,7 @@
         "foundationHeme": true,
         "vogelstein": true,
         "sangerCGC": true,
-        "geneType": "ONCOGENE_AND_TSG",
+        "geneType": "TSG",
         "geneAliases": [
             "ARC240",
             "TNRC11",
@@ -1376,7 +1376,7 @@
         "entrezGeneId": 4615,
         "grch37Isoform": "ENST00000396334",
         "grch37RefSeq": "NM_002468.4",
-        "grch38Isoform": "ENST00000396334",
+        "grch38Isoform": "ENST00000650905",
         "grch38RefSeq": "NM_002468.5",
         "oncokbAnnotated": true,
         "occurrenceCount": 7,
@@ -1502,7 +1502,7 @@
         "foundationHeme": true,
         "vogelstein": true,
         "sangerCGC": true,
-        "geneType": "TSG",
+        "geneType": "ONCOGENE_AND_TSG",
         "geneAliases": [
             "B23",
             "NPM"
@@ -1935,8 +1935,8 @@
         "entrezGeneId": 6598,
         "grch37Isoform": "ENST00000263121",
         "grch37RefSeq": "NM_003073.3",
-        "grch38Isoform": "ENST00000618915",
-        "grch38RefSeq": "NM_003073.3",
+        "grch38Isoform": "ENST00000644036",
+        "grch38RefSeq": "NM_003073.5",
         "oncokbAnnotated": true,
         "occurrenceCount": 7,
         "mSKImpact": true,
@@ -2755,9 +2755,9 @@
         "hugoSymbol": "CRLF2",
         "entrezGeneId": 64109,
         "grch37Isoform": "ENST00000400841",
-        "grch37RefSeq": "",
+        "grch37RefSeq": "NM_022148.2",
         "grch38Isoform": "ENST00000400841",
-        "grch38RefSeq": "",
+        "grch38RefSeq": "NM_022148.4",
         "oncokbAnnotated": true,
         "occurrenceCount": 6,
         "mSKImpact": true,
@@ -2798,10 +2798,10 @@
     {
         "hugoSymbol": "CSF3R",
         "entrezGeneId": 1441,
-        "grch37Isoform": "ENST00000361632",
+        "grch37Isoform": "ENST00000373106",
         "grch37RefSeq": "NM_000760.3",
-        "grch38Isoform": "ENST00000361632",
-        "grch38RefSeq": "NM_000760.3",
+        "grch38Isoform": "ENST00000373106",
+        "grch38RefSeq": "NM_000760.4",
         "oncokbAnnotated": true,
         "occurrenceCount": 6,
         "mSKImpact": true,
@@ -3548,7 +3548,7 @@
         "foundationHeme": true,
         "vogelstein": false,
         "sangerCGC": true,
-        "geneType": "ONCOGENE_AND_TSG",
+        "geneType": "ONCOGENE",
         "geneAliases": [
             "bHLHe32",
             "WS2A",
@@ -3585,7 +3585,7 @@
         "hugoSymbol": "MUTYH",
         "entrezGeneId": 4595,
         "grch37Isoform": "ENST00000450313",
-        "grch37RefSeq": "NM_012222.2",
+        "grch37RefSeq": "NM_001128425.1",
         "grch38Isoform": "ENST00000710952",
         "grch38RefSeq": "NM_001128425.2",
         "oncokbAnnotated": true,
@@ -3782,8 +3782,8 @@
         "entrezGeneId": 4916,
         "grch37Isoform": "ENST00000360948",
         "grch37RefSeq": "NM_001012338.2",
-        "grch38Isoform": "ENST00000360948",
-        "grch38RefSeq": "NM_001012338.2",
+        "grch38Isoform": "ENST00000629765",
+        "grch38RefSeq": "NM_001012338.3",
         "oncokbAnnotated": true,
         "occurrenceCount": 6,
         "mSKImpact": true,
@@ -4452,10 +4452,10 @@
     {
         "hugoSymbol": "ARID1B",
         "entrezGeneId": 57492,
-        "grch37Isoform": "ENST00000346085",
-        "grch37RefSeq": "NM_020732.3",
-        "grch38Isoform": "ENST00000647938",
-        "grch38RefSeq": "NM_020732.3",
+        "grch37Isoform": "ENST00000350026",
+        "grch37RefSeq": "NM_017519",
+        "grch38Isoform": "ENST00000636930",
+        "grch38RefSeq": "",
         "oncokbAnnotated": true,
         "occurrenceCount": 5,
         "mSKImpact": true,
@@ -5566,7 +5566,7 @@
         "foundationHeme": true,
         "vogelstein": false,
         "sangerCGC": true,
-        "geneType": "ONCOGENE_AND_TSG",
+        "geneType": "TSG",
         "geneAliases": [
             "FLJ22263",
             "KMT3B",
@@ -5864,9 +5864,9 @@
         "hugoSymbol": "RBM10",
         "entrezGeneId": 8241,
         "grch37Isoform": "ENST00000377604",
-        "grch37RefSeq": "",
+        "grch37RefSeq": "NM_001204468.1",
         "grch38Isoform": "ENST00000377604",
-        "grch38RefSeq": "",
+        "grch38RefSeq": "NM_005676.5",
         "oncokbAnnotated": true,
         "occurrenceCount": 5,
         "mSKImpact": true,
@@ -6012,7 +6012,7 @@
         "foundationHeme": false,
         "vogelstein": true,
         "sangerCGC": false,
-        "geneType": "ONCOGENE_AND_TSG",
+        "geneType": "TSG",
         "geneAliases": [
             "CMPD1",
             "CMD1"
@@ -7793,10 +7793,10 @@
     {
         "hugoSymbol": "RUNX1T1",
         "entrezGeneId": 862,
-        "grch37Isoform": "ENST00000265814",
-        "grch37RefSeq": "NM_001198626.1",
-        "grch38Isoform": "ENST00000265814",
-        "grch38RefSeq": "NM_001198626.1",
+        "grch37Isoform": "ENST00000523629",
+        "grch37RefSeq": "",
+        "grch38Isoform": "ENST00000523629",
+        "grch38RefSeq": "",
         "oncokbAnnotated": true,
         "occurrenceCount": 4,
         "mSKImpact": false,
@@ -8013,9 +8013,9 @@
         "hugoSymbol": "TMEM127",
         "entrezGeneId": 55654,
         "grch37Isoform": "ENST00000258439",
-        "grch37RefSeq": "NM_001193304.2",
+        "grch37RefSeq": "NM_017849.3",
         "grch38Isoform": "ENST00000258439",
-        "grch38RefSeq": "NM_001193304.2",
+        "grch38RefSeq": "NM_017849.4",
         "oncokbAnnotated": true,
         "occurrenceCount": 4,
         "mSKImpact": true,
@@ -8296,8 +8296,8 @@
         "entrezGeneId": 2909,
         "grch37Isoform": "ENST00000404338",
         "grch37RefSeq": "NM_004491.4",
-        "grch38Isoform": "ENST00000404338",
-        "grch38RefSeq": "NM_004491.4",
+        "grch38Isoform": "ENST00000672722",
+        "grch38RefSeq": "NM_004491.5",
         "oncokbAnnotated": true,
         "occurrenceCount": 3,
         "mSKImpact": true,
@@ -8636,6 +8636,26 @@
         ]
     },
     {
+        "hugoSymbol": "CARS1",
+        "entrezGeneId": 833,
+        "grch37Isoform": "ENST00000380525",
+        "grch37RefSeq": "NM_001014437.2",
+        "grch38Isoform": "ENST00000380525",
+        "grch38RefSeq": "NM_001014437.3",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 3,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": true,
+        "vogelstein": false,
+        "sangerCGC": true,
+        "geneType": "INSUFFICIENT_EVIDENCE",
+        "geneAliases": [
+            "CARS"
+        ]
+    },
+    {
         "hugoSymbol": "CBFA2T3",
         "entrezGeneId": 863,
         "grch37Isoform": "ENST00000268679",
@@ -8825,6 +8845,27 @@
         "geneAliases": [
             "CenH3",
             "CENP-A"
+        ]
+    },
+    {
+        "hugoSymbol": "CEP43",
+        "entrezGeneId": 11116,
+        "grch37Isoform": "ENST00000366847",
+        "grch37RefSeq": "NM_007045.3",
+        "grch38Isoform": "ENST00000366847",
+        "grch38RefSeq": "NM_007045.4",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 3,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": true,
+        "vogelstein": false,
+        "sangerCGC": true,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "FOP",
+            "FGFR1OP"
         ]
     },
     {
@@ -9442,7 +9483,7 @@
         "foundationHeme": false,
         "vogelstein": false,
         "sangerCGC": false,
-        "geneType": "TSG",
+        "geneType": "ONCOGENE",
         "geneAliases": [
             "EGP34",
             "M4S1",
@@ -9593,6 +9634,29 @@
         ]
     },
     {
+        "hugoSymbol": "FCGR2B",
+        "entrezGeneId": 2213,
+        "grch37Isoform": "ENST00000358671",
+        "grch37RefSeq": "NM_004001.4",
+        "grch38Isoform": "ENST00000358671",
+        "grch38RefSeq": "NM_001394477.1",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 3,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": true,
+        "vogelstein": false,
+        "sangerCGC": true,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "FCGR2",
+            "FCG2",
+            "CD32B",
+            "CD32"
+        ]
+    },
+    {
         "hugoSymbol": "FEV",
         "entrezGeneId": 54738,
         "grch37Isoform": "ENST00000295727",
@@ -9690,10 +9754,10 @@
     {
         "hugoSymbol": "FHIT",
         "entrezGeneId": 2272,
-        "grch37Isoform": "ENST00000468189",
-        "grch37RefSeq": "NM_001166243",
+        "grch37Isoform": "ENST00000492590",
+        "grch37RefSeq": "",
         "grch38Isoform": "ENST00000492590",
-        "grch38RefSeq": "NM_002012",
+        "grch38RefSeq": "",
         "oncokbAnnotated": true,
         "occurrenceCount": 3,
         "mSKImpact": false,
@@ -9794,6 +9858,27 @@
         ]
     },
     {
+        "hugoSymbol": "GID4",
+        "entrezGeneId": 79018,
+        "grch37Isoform": "ENST00000268719",
+        "grch37RefSeq": "NM_024052.4",
+        "grch38Isoform": "ENST00000268719",
+        "grch38RefSeq": "NM_024052.5",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 3,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": true,
+        "foundationHeme": true,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "INSUFFICIENT_EVIDENCE",
+        "geneAliases": [
+            "C17orf39",
+            "VID24"
+        ]
+    },
+    {
         "hugoSymbol": "GNA12",
         "entrezGeneId": 2768,
         "grch37Isoform": "ENST00000275364",
@@ -9854,8 +9939,8 @@
         "entrezGeneId": 26585,
         "grch37Isoform": "ENST00000300177",
         "grch37RefSeq": "NM_013372.6",
-        "grch38Isoform": "ENST00000300177",
-        "grch38RefSeq": "NM_013372.6",
+        "grch38Isoform": "ENST00000651154",
+        "grch38RefSeq": "NM_013372.7",
         "oncokbAnnotated": true,
         "occurrenceCount": 3,
         "mSKImpact": true,
@@ -10417,6 +10502,28 @@
         ]
     },
     {
+        "hugoSymbol": "H4C9",
+        "entrezGeneId": 8294,
+        "grch37Isoform": "ENST00000354348",
+        "grch37RefSeq": "NM_003495.2",
+        "grch38Isoform": "ENST00000615353",
+        "grch38RefSeq": "NM_003495.3",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 3,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": true,
+        "vogelstein": false,
+        "sangerCGC": true,
+        "geneType": "INSUFFICIENT_EVIDENCE",
+        "geneAliases": [
+            "H4FM",
+            "HIST1H4I",
+            "H4/m"
+        ]
+    },
+    {
         "hugoSymbol": "HDAC4",
         "entrezGeneId": 9759,
         "grch37Isoform": "ENST00000345617",
@@ -10464,6 +10571,29 @@
         ]
     },
     {
+        "hugoSymbol": "HERPUD1",
+        "entrezGeneId": 9709,
+        "grch37Isoform": "ENST00000439977",
+        "grch37RefSeq": "NM_014685.3",
+        "grch38Isoform": "ENST00000439977",
+        "grch38RefSeq": "NM_014685.4",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 3,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": true,
+        "vogelstein": false,
+        "sangerCGC": true,
+        "geneType": "INSUFFICIENT_EVIDENCE",
+        "geneAliases": [
+            "Mif1",
+            "KIAA0025",
+            "HERP",
+            "SUP"
+        ]
+    },
+    {
         "hugoSymbol": "HIF1A",
         "entrezGeneId": 3091,
         "grch37Isoform": "ENST00000337138",
@@ -10486,6 +10616,24 @@
             "HIF-1alpha",
             "HIF1"
         ]
+    },
+    {
+        "hugoSymbol": "HIP1",
+        "entrezGeneId": 3092,
+        "grch37Isoform": "ENST00000336926",
+        "grch37RefSeq": "NM_005338.6",
+        "grch38Isoform": "ENST00000336926",
+        "grch38RefSeq": "NM_005338.7",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 3,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": true,
+        "vogelstein": false,
+        "sangerCGC": true,
+        "geneType": "ONCOGENE",
+        "geneAliases": []
     },
     {
         "hugoSymbol": "HLA-B",
@@ -10568,6 +10716,26 @@
         "geneAliases": [
             "HOX1",
             "HOX1I"
+        ]
+    },
+    {
+        "hugoSymbol": "HOXA13",
+        "entrezGeneId": 3209,
+        "grch37Isoform": "ENST00000222753",
+        "grch37RefSeq": "NM_000522.4",
+        "grch38Isoform": "ENST00000649031",
+        "grch38RefSeq": "NM_000522.5",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 3,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": true,
+        "vogelstein": false,
+        "sangerCGC": true,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "HOX1J"
         ]
     },
     {
@@ -10751,10 +10919,10 @@
     {
         "hugoSymbol": "INPP4A",
         "entrezGeneId": 3631,
-        "grch37Isoform": "ENST00000074304",
-        "grch37RefSeq": "NM_001134224.1",
-        "grch38Isoform": "ENST00000074304",
-        "grch38RefSeq": "NM_001134224.1",
+        "grch37Isoform": "ENST00000409851",
+        "grch37RefSeq": "",
+        "grch38Isoform": "ENST00000409851",
+        "grch38RefSeq": "",
         "oncokbAnnotated": true,
         "occurrenceCount": 3,
         "mSKImpact": true,
@@ -10915,6 +11083,28 @@
         ]
     },
     {
+        "hugoSymbol": "KDSR",
+        "entrezGeneId": 2531,
+        "grch37Isoform": "ENST00000406396",
+        "grch37RefSeq": "NM_002035.2",
+        "grch38Isoform": "ENST00000645214",
+        "grch38RefSeq": "NM_002035.4",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 3,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": true,
+        "vogelstein": false,
+        "sangerCGC": true,
+        "geneType": "INSUFFICIENT_EVIDENCE",
+        "geneAliases": [
+            "DHSR",
+            "SDR35C1",
+            "FVT1"
+        ]
+    },
+    {
         "hugoSymbol": "KLHL6",
         "entrezGeneId": 89857,
         "grch37Isoform": "ENST00000341319",
@@ -10929,7 +11119,7 @@
         "foundationHeme": true,
         "vogelstein": false,
         "sangerCGC": false,
-        "geneType": "ONCOGENE_AND_TSG",
+        "geneType": "TSG",
         "geneAliases": [
             "FLJ00029"
         ]
@@ -11005,6 +11195,27 @@
             "TRAF4AF1",
             "FLJ14502",
             "C15orf23"
+        ]
+    },
+    {
+        "hugoSymbol": "LASP1",
+        "entrezGeneId": 3927,
+        "grch37Isoform": "ENST00000318008",
+        "grch37RefSeq": "NM_006148.3",
+        "grch38Isoform": "ENST00000318008",
+        "grch38RefSeq": "NM_006148.4",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 3,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": true,
+        "vogelstein": false,
+        "sangerCGC": true,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "MLN50",
+            "Lasp-1"
         ]
     },
     {
@@ -11245,6 +11456,24 @@
             "KIAA0518",
             "FLJ12634"
         ]
+    },
+    {
+        "hugoSymbol": "MLF1",
+        "entrezGeneId": 4291,
+        "grch37Isoform": "ENST00000355893",
+        "grch37RefSeq": "NM_022443.4",
+        "grch38Isoform": "ENST00000355893",
+        "grch38RefSeq": "NM_022443.5",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 3,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": true,
+        "vogelstein": false,
+        "sangerCGC": true,
+        "geneType": "ONCOGENE_AND_TSG",
+        "geneAliases": []
     },
     {
         "hugoSymbol": "MLLT10",
@@ -11641,6 +11870,24 @@
         ]
     },
     {
+        "hugoSymbol": "PAFAH1B2",
+        "entrezGeneId": 5049,
+        "grch37Isoform": "ENST00000527958",
+        "grch37RefSeq": "NM_002572.3",
+        "grch38Isoform": "ENST00000527958",
+        "grch38RefSeq": "NM_002572.4",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 3,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": true,
+        "vogelstein": false,
+        "sangerCGC": true,
+        "geneType": "ONCOGENE",
+        "geneAliases": []
+    },
+    {
         "hugoSymbol": "PAK1",
         "entrezGeneId": 5058,
         "grch37Isoform": "ENST00000356341",
@@ -11819,6 +12066,26 @@
         "geneAliases": [
             "PR",
             "NR3C3"
+        ]
+    },
+    {
+        "hugoSymbol": "PICALM",
+        "entrezGeneId": 8301,
+        "grch37Isoform": "ENST00000393346",
+        "grch37RefSeq": "",
+        "grch38Isoform": "ENST00000393346",
+        "grch38RefSeq": "NM_007166.4",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 3,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": true,
+        "vogelstein": false,
+        "sangerCGC": true,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "CLTH"
         ]
     },
     {
@@ -12739,7 +13006,7 @@
         "foundationHeme": false,
         "vogelstein": false,
         "sangerCGC": true,
-        "geneType": "ONCOGENE_AND_TSG",
+        "geneType": "INSUFFICIENT_EVIDENCE",
         "geneAliases": [
             "BAF57"
         ]
@@ -13027,10 +13294,10 @@
     {
         "hugoSymbol": "TAP2",
         "entrezGeneId": 6891,
-        "grch37Isoform": "ENST00000374899",
-        "grch37RefSeq": "NM_018833.2",
-        "grch38Isoform": "ENST00000383119",
-        "grch38RefSeq": "NM_018833.2",
+        "grch37Isoform": "ENST00000374897",
+        "grch37RefSeq": "NM_000544.3",
+        "grch38Isoform": "ENST00000374897",
+        "grch38RefSeq": "NM_001290043.2",
         "oncokbAnnotated": true,
         "occurrenceCount": 3,
         "mSKImpact": true,
@@ -13267,10 +13534,10 @@
     {
         "hugoSymbol": "TYK2",
         "entrezGeneId": 7297,
-        "grch37Isoform": "ENST00000264818",
+        "grch37Isoform": "ENST00000525621",
         "grch37RefSeq": "NM_003331.4",
-        "grch38Isoform": "ENST00000264818",
-        "grch38RefSeq": "NM_003331.4",
+        "grch38Isoform": "ENST00000525621",
+        "grch38RefSeq": "NM_003331.5",
         "oncokbAnnotated": true,
         "occurrenceCount": 3,
         "mSKImpact": false,
@@ -13728,6 +13995,27 @@
         ]
     },
     {
+        "hugoSymbol": "APOBEC3B",
+        "entrezGeneId": 9582,
+        "grch37Isoform": "ENST00000333467",
+        "grch37RefSeq": "NM_004900.4",
+        "grch38Isoform": "ENST00000333467",
+        "grch38RefSeq": "NM_004900.5",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 2,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": true,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "PHRBNL",
+            "FLJ21201"
+        ]
+    },
+    {
         "hugoSymbol": "ARFRP1",
         "entrezGeneId": 10139,
         "grch37Isoform": "",
@@ -13918,6 +14206,28 @@
         ]
     },
     {
+        "hugoSymbol": "ATG5",
+        "entrezGeneId": 9474,
+        "grch37Isoform": "ENST00000369076",
+        "grch37RefSeq": "NM_004849.2",
+        "grch38Isoform": "ENST00000369076",
+        "grch38RefSeq": "NM_004849.4",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 2,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": true,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "TSG",
+        "geneAliases": [
+            "APG5",
+            "APG5L",
+            "hAPG5"
+        ]
+    },
+    {
         "hugoSymbol": "ATP1A1",
         "entrezGeneId": 476,
         "grch37Isoform": "ENST00000295598",
@@ -14012,7 +14322,7 @@
         "grch37Isoform": "ENST00000398590",
         "grch37RefSeq": "NM_001177387.1",
         "grch38Isoform": "ENST00000522345",
-        "grch38RefSeq": "",
+        "grch38RefSeq": "NM_001177387.1",
         "oncokbAnnotated": true,
         "occurrenceCount": 2,
         "mSKImpact": true,
@@ -14073,6 +14383,28 @@
             "HBFQTL5",
             "BCL11A-L",
             "CTIP1"
+        ]
+    },
+    {
+        "hugoSymbol": "BCL9L",
+        "entrezGeneId": 283149,
+        "grch37Isoform": "ENST00000334801",
+        "grch37RefSeq": "NM_182557.2",
+        "grch38Isoform": "ENST00000683865",
+        "grch38RefSeq": "NM_001378213.1",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 2,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": true,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "DLNB11",
+            "B9L",
+            "Bcl9-2"
         ]
     },
     {
@@ -14206,26 +14538,6 @@
         ]
     },
     {
-        "hugoSymbol": "CARS1",
-        "entrezGeneId": 833,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
-        "occurrenceCount": 2,
-        "mSKImpact": false,
-        "mSKHeme": false,
-        "foundation": false,
-        "foundationHeme": true,
-        "vogelstein": false,
-        "sangerCGC": true,
-        "geneType": null,
-        "geneAliases": [
-            "CARS"
-        ]
-    },
-    {
         "hugoSymbol": "CBLB",
         "entrezGeneId": 868,
         "grch37Isoform": "ENST00000264122",
@@ -14265,6 +14577,27 @@
         "geneAliases": [
             "WISP-3",
             "WISP3"
+        ]
+    },
+    {
+        "hugoSymbol": "CCNB1IP1",
+        "entrezGeneId": 57820,
+        "grch37Isoform": "ENST00000358932",
+        "grch37RefSeq": "NM_021178.4",
+        "grch38Isoform": "ENST00000358932",
+        "grch38RefSeq": "NM_021178.5",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 2,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": true,
+        "geneType": "INSUFFICIENT_EVIDENCE",
+        "geneAliases": [
+            "C14orf18",
+            "HEI10"
         ]
     },
     {
@@ -14326,24 +14659,24 @@
         ]
     },
     {
-        "hugoSymbol": "CEP43",
-        "entrezGeneId": 11116,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
+        "hugoSymbol": "CHCHD7",
+        "entrezGeneId": 79145,
+        "grch37Isoform": "ENST00000355315",
+        "grch37RefSeq": "NM_001011671.1",
+        "grch38Isoform": "ENST00000355315",
+        "grch38RefSeq": "NM_001011671.3",
+        "oncokbAnnotated": true,
         "occurrenceCount": 2,
         "mSKImpact": false,
         "mSKHeme": false,
         "foundation": false,
-        "foundationHeme": true,
+        "foundationHeme": false,
         "vogelstein": false,
         "sangerCGC": true,
-        "geneType": null,
+        "geneType": "INSUFFICIENT_EVIDENCE",
         "geneAliases": [
-            "FOP",
-            "FGFR1OP"
+            "MGC2217",
+            "COX23"
         ]
     },
     {
@@ -14388,6 +14721,52 @@
         "geneAliases": [
             "Mi2-BETA",
             "Mi-2b"
+        ]
+    },
+    {
+        "hugoSymbol": "CILK1",
+        "entrezGeneId": 22858,
+        "grch37Isoform": "ENST00000350082",
+        "grch37RefSeq": "NM_014920.3",
+        "grch38Isoform": "ENST00000676107",
+        "grch38RefSeq": "NM_014920.5",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 2,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": true,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "ICK",
+            "MGC46090",
+            "LCK2",
+            "KIAA0936"
+        ]
+    },
+    {
+        "hugoSymbol": "CLIP1",
+        "entrezGeneId": 6249,
+        "grch37Isoform": "ENST00000540338",
+        "grch37RefSeq": "",
+        "grch38Isoform": "ENST00000620786",
+        "grch38RefSeq": "NM_001247997.2",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 2,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": true,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "CYLN1",
+            "CLIP170",
+            "CLIP-170",
+            "RSN"
         ]
     },
     {
@@ -15037,29 +15416,6 @@
         ]
     },
     {
-        "hugoSymbol": "FCGR2B",
-        "entrezGeneId": 2213,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
-        "occurrenceCount": 2,
-        "mSKImpact": false,
-        "mSKHeme": false,
-        "foundation": false,
-        "foundationHeme": true,
-        "vogelstein": false,
-        "sangerCGC": true,
-        "geneType": null,
-        "geneAliases": [
-            "FCGR2",
-            "FCG2",
-            "CD32B",
-            "CD32"
-        ]
-    },
-    {
         "hugoSymbol": "FCRL4",
         "entrezGeneId": 83417,
         "grch37Isoform": "",
@@ -15213,9 +15569,9 @@
         "hugoSymbol": "GAB1",
         "entrezGeneId": 2549,
         "grch37Isoform": "ENST00000262995",
-        "grch37RefSeq": "",
+        "grch37RefSeq": "NM_207123.2",
         "grch38Isoform": "ENST00000262995",
-        "grch38RefSeq": "",
+        "grch38RefSeq": "NM_207123.3",
         "oncokbAnnotated": true,
         "occurrenceCount": 2,
         "mSKImpact": true,
@@ -15323,27 +15679,6 @@
         "sangerCGC": false,
         "geneType": "ONCOGENE",
         "geneAliases": []
-    },
-    {
-        "hugoSymbol": "GID4",
-        "entrezGeneId": 79018,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
-        "occurrenceCount": 2,
-        "mSKImpact": false,
-        "mSKHeme": false,
-        "foundation": true,
-        "foundationHeme": true,
-        "vogelstein": false,
-        "sangerCGC": false,
-        "geneType": null,
-        "geneAliases": [
-            "C17orf39",
-            "VID24"
-        ]
     },
     {
         "hugoSymbol": "GPC3",
@@ -15484,51 +15819,6 @@
         ]
     },
     {
-        "hugoSymbol": "H4C9",
-        "entrezGeneId": 8294,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
-        "occurrenceCount": 2,
-        "mSKImpact": false,
-        "mSKHeme": false,
-        "foundation": false,
-        "foundationHeme": true,
-        "vogelstein": false,
-        "sangerCGC": true,
-        "geneType": null,
-        "geneAliases": [
-            "H4FM",
-            "HIST1H4I",
-            "H4/m"
-        ]
-    },
-    {
-        "hugoSymbol": "HERPUD1",
-        "entrezGeneId": 9709,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
-        "occurrenceCount": 2,
-        "mSKImpact": false,
-        "mSKHeme": false,
-        "foundation": false,
-        "foundationHeme": true,
-        "vogelstein": false,
-        "sangerCGC": true,
-        "geneType": null,
-        "geneAliases": [
-            "Mif1",
-            "KIAA0025",
-            "HERP",
-            "SUP"
-        ]
-    },
-    {
         "hugoSymbol": "HEY1",
         "entrezGeneId": 23462,
         "grch37Isoform": "",
@@ -15553,24 +15843,6 @@
             "CHF2",
             "bHLHb31"
         ]
-    },
-    {
-        "hugoSymbol": "HIP1",
-        "entrezGeneId": 3092,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
-        "occurrenceCount": 2,
-        "mSKImpact": false,
-        "mSKHeme": false,
-        "foundation": false,
-        "foundationHeme": true,
-        "vogelstein": false,
-        "sangerCGC": true,
-        "geneType": null,
-        "geneAliases": []
     },
     {
         "hugoSymbol": "HIRA",
@@ -15634,26 +15906,6 @@
         "geneType": null,
         "geneAliases": [
             "MGC33822"
-        ]
-    },
-    {
-        "hugoSymbol": "HOXA13",
-        "entrezGeneId": 3209,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
-        "occurrenceCount": 2,
-        "mSKImpact": false,
-        "mSKHeme": false,
-        "foundation": false,
-        "foundationHeme": true,
-        "vogelstein": false,
-        "sangerCGC": true,
-        "geneType": null,
-        "geneAliases": [
-            "HOX1J"
         ]
     },
     {
@@ -15909,10 +16161,10 @@
     {
         "hugoSymbol": "IL6ST",
         "entrezGeneId": 3572,
-        "grch37Isoform": "ENST00000336909",
-        "grch37RefSeq": "NM_002184.3",
-        "grch38Isoform": "ENST00000336909",
-        "grch38RefSeq": "NM_002184.3",
+        "grch37Isoform": "ENST00000381298",
+        "grch37RefSeq": "",
+        "grch38Isoform": "ENST00000381298",
+        "grch38RefSeq": "",
         "oncokbAnnotated": true,
         "occurrenceCount": 2,
         "mSKImpact": false,
@@ -15995,9 +16247,9 @@
         "hugoSymbol": "KBTBD4",
         "entrezGeneId": 55709,
         "grch37Isoform": "ENST00000430070",
-        "grch37RefSeq": "",
+        "grch37RefSeq": "NM_018095.4",
         "grch38Isoform": "ENST00000430070",
-        "grch38RefSeq": "",
+        "grch38RefSeq": "NM_018095.6",
         "oncokbAnnotated": true,
         "occurrenceCount": 2,
         "mSKImpact": true,
@@ -16011,28 +16263,6 @@
             "BKLHD4",
             "FLJ10450",
             "HSPC252"
-        ]
-    },
-    {
-        "hugoSymbol": "KDSR",
-        "entrezGeneId": 2531,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
-        "occurrenceCount": 2,
-        "mSKImpact": false,
-        "mSKHeme": false,
-        "foundation": false,
-        "foundationHeme": true,
-        "vogelstein": false,
-        "sangerCGC": true,
-        "geneType": null,
-        "geneAliases": [
-            "DHSR",
-            "SDR35C1",
-            "FVT1"
         ]
     },
     {
@@ -16119,27 +16349,6 @@
         ]
     },
     {
-        "hugoSymbol": "LASP1",
-        "entrezGeneId": 3927,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
-        "occurrenceCount": 2,
-        "mSKImpact": false,
-        "mSKHeme": false,
-        "foundation": false,
-        "foundationHeme": true,
-        "vogelstein": false,
-        "sangerCGC": true,
-        "geneType": null,
-        "geneAliases": [
-            "MLN50",
-            "Lasp-1"
-        ]
-    },
-    {
         "hugoSymbol": "LMNA",
         "entrezGeneId": 4000,
         "grch37Isoform": "ENST00000368300",
@@ -16185,10 +16394,10 @@
     {
         "hugoSymbol": "LTB",
         "entrezGeneId": 4050,
-        "grch37Isoform": "ENST00000376117",
+        "grch37Isoform": "ENST00000429299",
         "grch37RefSeq": "NM_002341.1",
-        "grch38Isoform": "ENST00000376117",
-        "grch38RefSeq": "NM_002341.1",
+        "grch38Isoform": "ENST00000429299",
+        "grch38RefSeq": "NM_002341.2",
         "oncokbAnnotated": true,
         "occurrenceCount": 2,
         "mSKImpact": false,
@@ -16323,7 +16532,7 @@
         "foundationHeme": true,
         "vogelstein": false,
         "sangerCGC": false,
-        "geneType": "ONCOGENE_AND_TSG",
+        "geneType": "ONCOGENE",
         "geneAliases": []
     },
     {
@@ -16387,24 +16596,6 @@
             "MIB-1",
             "PPP1R105"
         ]
-    },
-    {
-        "hugoSymbol": "MLF1",
-        "entrezGeneId": 4291,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
-        "occurrenceCount": 2,
-        "mSKImpact": false,
-        "mSKHeme": false,
-        "foundation": false,
-        "foundationHeme": true,
-        "vogelstein": false,
-        "sangerCGC": true,
-        "geneType": null,
-        "geneAliases": []
     },
     {
         "hugoSymbol": "MLLT6",
@@ -16612,7 +16803,7 @@
         "grch37Isoform": "ENST00000378625",
         "grch37RefSeq": "NM_001198994.1",
         "grch38Isoform": "ENST00000378625",
-        "grch38RefSeq": "",
+        "grch38RefSeq": "NM_001198994.2",
         "oncokbAnnotated": true,
         "occurrenceCount": 2,
         "mSKImpact": true,
@@ -16761,6 +16952,26 @@
         ]
     },
     {
+        "hugoSymbol": "NFKBIE",
+        "entrezGeneId": 4794,
+        "grch37Isoform": "ENST00000275015",
+        "grch37RefSeq": "NM_004556.2",
+        "grch38Isoform": "ENST00000275015",
+        "grch38RefSeq": "NM_004556",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 2,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": true,
+        "geneType": "TSG",
+        "geneAliases": [
+            "IKBE"
+        ]
+    },
+    {
         "hugoSymbol": "NIN",
         "entrezGeneId": 51199,
         "grch37Isoform": "",
@@ -16804,24 +17015,6 @@
     {
         "hugoSymbol": "NUMA1",
         "entrezGeneId": 4926,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
-        "occurrenceCount": 2,
-        "mSKImpact": false,
-        "mSKHeme": false,
-        "foundation": false,
-        "foundationHeme": true,
-        "vogelstein": false,
-        "sangerCGC": true,
-        "geneType": null,
-        "geneAliases": []
-    },
-    {
-        "hugoSymbol": "PAFAH1B2",
-        "entrezGeneId": 5049,
         "grch37Isoform": "",
         "grch37RefSeq": "",
         "grch38Isoform": "",
@@ -17003,26 +17196,6 @@
         "geneAliases": [
             "DKFZp761A0620",
             "FLJ11413"
-        ]
-    },
-    {
-        "hugoSymbol": "PICALM",
-        "entrezGeneId": 8301,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
-        "occurrenceCount": 2,
-        "mSKImpact": false,
-        "mSKHeme": false,
-        "foundation": false,
-        "foundationHeme": true,
-        "vogelstein": false,
-        "sangerCGC": true,
-        "geneType": null,
-        "geneAliases": [
-            "CLTH"
         ]
     },
     {
@@ -17268,6 +17441,26 @@
         ]
     },
     {
+        "hugoSymbol": "PTK7",
+        "entrezGeneId": 5754,
+        "grch37Isoform": "ENST00000230419",
+        "grch37RefSeq": "NM_002821",
+        "grch38Isoform": "ENST00000230419",
+        "grch38RefSeq": "NM_002821.5",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 2,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": true,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "CCK4"
+        ]
+    },
+    {
         "hugoSymbol": "PTPN1",
         "entrezGeneId": 5770,
         "grch37Isoform": "ENST00000371621",
@@ -17282,7 +17475,7 @@
         "foundationHeme": false,
         "vogelstein": false,
         "sangerCGC": false,
-        "geneType": "ONCOGENE_AND_TSG",
+        "geneType": "TSG",
         "geneAliases": [
             "PTP1B"
         ]
@@ -17675,7 +17868,7 @@
         "foundationHeme": false,
         "vogelstein": false,
         "sangerCGC": false,
-        "geneType": "ONCOGENE_AND_TSG",
+        "geneType": "INSUFFICIENT_EVIDENCE",
         "geneAliases": [
             "SCC",
             "SCCA1",
@@ -18613,6 +18806,26 @@
         ]
     },
     {
+        "hugoSymbol": "YWHAE",
+        "entrezGeneId": 7531,
+        "grch37Isoform": "ENST00000264335",
+        "grch37RefSeq": "NM_006761.4",
+        "grch38Isoform": "ENST00000264335",
+        "grch38RefSeq": "NM_006761.5",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 2,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": true,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "FLJ45465"
+        ]
+    },
+    {
         "hugoSymbol": "ZBTB16",
         "entrezGeneId": 7704,
         "grch37Isoform": "",
@@ -18818,6 +19031,24 @@
         ]
     },
     {
+        "hugoSymbol": "AAMP",
+        "entrezGeneId": 14,
+        "grch37Isoform": "ENST00000248450",
+        "grch37RefSeq": "",
+        "grch38Isoform": "ENST00000248450",
+        "grch38RefSeq": "NM_001087.5",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE",
+        "geneAliases": []
+    },
+    {
         "hugoSymbol": "ABCB1",
         "entrezGeneId": 5243,
         "grch37Isoform": "ENST00000265724",
@@ -18869,6 +19100,50 @@
         ]
     },
     {
+        "hugoSymbol": "ACACA",
+        "entrezGeneId": 31,
+        "grch37Isoform": "ENST00000353139",
+        "grch37RefSeq": "",
+        "grch38Isoform": "ENST00000616317",
+        "grch38RefSeq": "NM_198834.3",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "ACC",
+            "ACAC",
+            "ACC1"
+        ]
+    },
+    {
+        "hugoSymbol": "ACP3",
+        "entrezGeneId": 55,
+        "grch37Isoform": "ENST00000336375",
+        "grch37RefSeq": "NM_001099.4",
+        "grch38Isoform": "ENST00000336375",
+        "grch38RefSeq": "NM_001099.5",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "TSG",
+        "geneAliases": [
+            "TM-PAP",
+            "ACP-3",
+            "ACPP"
+        ]
+    },
+    {
         "hugoSymbol": "ACSL3",
         "entrezGeneId": 2181,
         "grch37Isoform": "",
@@ -18887,6 +19162,30 @@
         "geneAliases": [
             "FACL3",
             "PRO2194"
+        ]
+    },
+    {
+        "hugoSymbol": "ACSL4",
+        "entrezGeneId": 2182,
+        "grch37Isoform": "ENST00000348502",
+        "grch37RefSeq": "NM_004458.2",
+        "grch38Isoform": "ENST00000672401",
+        "grch38RefSeq": "NM_004458.3",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "LACS4",
+            "MRX63",
+            "MRX68",
+            "FACL4",
+            "ACS4"
         ]
     },
     {
@@ -19082,6 +19381,26 @@
         ]
     },
     {
+        "hugoSymbol": "AIM2",
+        "entrezGeneId": 9447,
+        "grch37Isoform": "ENST00000368130",
+        "grch37RefSeq": "NM_004833.1",
+        "grch38Isoform": "ENST00000368130",
+        "grch38RefSeq": "NM_004833.3",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "TSG",
+        "geneAliases": [
+            "PYHIN4"
+        ]
+    },
+    {
         "hugoSymbol": "AIP",
         "entrezGeneId": 9049,
         "grch37Isoform": "ENST00000279146",
@@ -19129,7 +19448,7 @@
         "hugoSymbol": "AKT1S1",
         "entrezGeneId": 84335,
         "grch37Isoform": "ENST00000344175",
-        "grch37RefSeq": "NM_001098633.3",
+        "grch37RefSeq": "NM_001098632",
         "grch38Isoform": "ENST00000344175",
         "grch38RefSeq": "NM_001098633.4",
         "oncokbAnnotated": true,
@@ -19145,6 +19464,27 @@
             "MGC2865",
             "Lobe",
             "PRAS40"
+        ]
+    },
+    {
+        "hugoSymbol": "ALDH1A3",
+        "entrezGeneId": 220,
+        "grch37Isoform": "ENST00000329841",
+        "grch37RefSeq": "NM_000693.2",
+        "grch38Isoform": "ENST00000329841",
+        "grch38RefSeq": "NM_000693.4",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "ALDH6",
+            "RALDH3"
         ]
     },
     {
@@ -19190,7 +19530,7 @@
         "hugoSymbol": "ALOX15B",
         "entrezGeneId": 247,
         "grch37Isoform": "ENST00000380183",
-        "grch37RefSeq": "NM_001141.2",
+        "grch37RefSeq": "",
         "grch38Isoform": "ENST00000380183",
         "grch38RefSeq": "NM_001141.3",
         "oncokbAnnotated": true,
@@ -19227,12 +19567,33 @@
         ]
     },
     {
+        "hugoSymbol": "ANK1",
+        "entrezGeneId": 286,
+        "grch37Isoform": "ENST00000289734",
+        "grch37RefSeq": "NM_000037.3",
+        "grch38Isoform": "ENST00000289734",
+        "grch38RefSeq": "NM_000037.4",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE_AND_TSG",
+        "geneAliases": [
+            "SPH1",
+            "ANK"
+        ]
+    },
+    {
         "hugoSymbol": "ANKRD26",
         "entrezGeneId": 22852,
         "grch37Isoform": "ENST00000376087",
-        "grch37RefSeq": "NM_001256053",
+        "grch37RefSeq": "NM_014915.2",
         "grch38Isoform": "ENST00000376087",
-        "grch38RefSeq": "NM_001256053",
+        "grch38RefSeq": "NM_014915.3",
         "oncokbAnnotated": true,
         "occurrenceCount": 1,
         "mSKImpact": false,
@@ -19245,6 +19606,26 @@
         "geneAliases": [
             "THC2",
             "KIAA1074"
+        ]
+    },
+    {
+        "hugoSymbol": "APCDD1",
+        "entrezGeneId": 147495,
+        "grch37Isoform": "ENST00000355285",
+        "grch37RefSeq": "NM_153000.4",
+        "grch38Isoform": "ENST00000355285",
+        "grch38RefSeq": "NM_153000.5",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "TSG",
+        "geneAliases": [
+            "B7323"
         ]
     },
     {
@@ -19290,27 +19671,6 @@
         "geneAliases": [
             "CGI-78",
             "APH-1A"
-        ]
-    },
-    {
-        "hugoSymbol": "APOBEC3B",
-        "entrezGeneId": 9582,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
-        "occurrenceCount": 1,
-        "mSKImpact": false,
-        "mSKHeme": false,
-        "foundation": false,
-        "foundationHeme": false,
-        "vogelstein": false,
-        "sangerCGC": true,
-        "geneType": null,
-        "geneAliases": [
-            "PHRBNL",
-            "FLJ21201"
         ]
     },
     {
@@ -19377,25 +19737,23 @@
         ]
     },
     {
-        "hugoSymbol": "ATG5",
-        "entrezGeneId": 9474,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
+        "hugoSymbol": "ASXL3",
+        "entrezGeneId": 80816,
+        "grch37Isoform": "ENST00000269197",
+        "grch37RefSeq": "NM_030632.1",
+        "grch38Isoform": "ENST00000269197",
+        "grch38RefSeq": "NM_030632.3",
+        "oncokbAnnotated": true,
         "occurrenceCount": 1,
         "mSKImpact": false,
         "mSKHeme": false,
         "foundation": false,
-        "foundationHeme": true,
+        "foundationHeme": false,
         "vogelstein": false,
         "sangerCGC": false,
-        "geneType": null,
+        "geneType": "ONCOGENE",
         "geneAliases": [
-            "APG5",
-            "APG5L",
-            "hAPG5"
+            "KIAA1713"
         ]
     },
     {
@@ -19467,6 +19825,51 @@
         ]
     },
     {
+        "hugoSymbol": "AURKC",
+        "entrezGeneId": 6795,
+        "grch37Isoform": "ENST00000302804",
+        "grch37RefSeq": "NM_001015878.1",
+        "grch38Isoform": "ENST00000302804",
+        "grch38RefSeq": "NM_001015878.2",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "STK13",
+            "ARK3",
+            "AurC"
+        ]
+    },
+    {
+        "hugoSymbol": "AVIL",
+        "entrezGeneId": 10677,
+        "grch37Isoform": "ENST00000257861",
+        "grch37RefSeq": "NM_006576.3",
+        "grch38Isoform": "ENST00000549994",
+        "grch38RefSeq": "NM_006576.5",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "FLJ12386",
+            "ADVIL",
+            "p92",
+            "DOC6"
+        ]
+    },
+    {
         "hugoSymbol": "BAALC",
         "entrezGeneId": 79870,
         "grch37Isoform": "ENST00000297574",
@@ -19483,6 +19886,49 @@
         "sangerCGC": false,
         "geneType": "ONCOGENE",
         "geneAliases": []
+    },
+    {
+        "hugoSymbol": "BABAM2",
+        "entrezGeneId": 9577,
+        "grch37Isoform": "ENST00000379624",
+        "grch37RefSeq": "NM_199191.2",
+        "grch38Isoform": "ENST00000379624",
+        "grch38RefSeq": "NM_199191.3",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "INSUFFICIENT_EVIDENCE",
+        "geneAliases": [
+            "BRCC45",
+            "BRE",
+            "BRCC4"
+        ]
+    },
+    {
+        "hugoSymbol": "BACH1",
+        "entrezGeneId": 571,
+        "grch37Isoform": "ENST00000286800",
+        "grch37RefSeq": "NM_001186.2",
+        "grch38Isoform": "ENST00000286800",
+        "grch38RefSeq": "NM_001186.4",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "BTBD24",
+            "BACH-1"
+        ]
     },
     {
         "hugoSymbol": "BAX",
@@ -19505,25 +19951,69 @@
         ]
     },
     {
-        "hugoSymbol": "BCL9L",
-        "entrezGeneId": 283149,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
+        "hugoSymbol": "BIRC5",
+        "entrezGeneId": 332,
+        "grch37Isoform": "ENST00000350051",
+        "grch37RefSeq": "NM_001168.2",
+        "grch38Isoform": "ENST00000350051",
+        "grch38RefSeq": "NM_001168.3",
+        "oncokbAnnotated": true,
         "occurrenceCount": 1,
         "mSKImpact": false,
         "mSKHeme": false,
         "foundation": false,
         "foundationHeme": false,
         "vogelstein": false,
-        "sangerCGC": true,
-        "geneType": null,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE",
         "geneAliases": [
-            "DLNB11",
-            "B9L",
-            "Bcl9-2"
+            "survivin",
+            "API4"
+        ]
+    },
+    {
+        "hugoSymbol": "BRD2",
+        "entrezGeneId": 6046,
+        "grch37Isoform": "ENST00000374825",
+        "grch37RefSeq": "NM_005104.3",
+        "grch38Isoform": "ENST00000374825",
+        "grch38RefSeq": "NM_005104.4",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "NAT",
+            "D6S113E",
+            "RING3",
+            "BRD2-IT1",
+            "FSRG1",
+            "KIAA9001"
+        ]
+    },
+    {
+        "hugoSymbol": "BRD9",
+        "entrezGeneId": 65980,
+        "grch37Isoform": "ENST00000467963",
+        "grch37RefSeq": "NM_023924.4",
+        "grch38Isoform": "ENST00000467963",
+        "grch38RefSeq": "NM_023924.5",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "FLJ13441"
         ]
     },
     {
@@ -19572,6 +20062,26 @@
         ]
     },
     {
+        "hugoSymbol": "CAV1",
+        "entrezGeneId": 857,
+        "grch37Isoform": "ENST00000341049",
+        "grch37RefSeq": "NM_001753.4",
+        "grch38Isoform": "ENST00000341049",
+        "grch38RefSeq": "NM_001753.5",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE_AND_TSG",
+        "geneAliases": [
+            "CAV"
+        ]
+    },
+    {
         "hugoSymbol": "CBLC",
         "entrezGeneId": 23624,
         "grch37Isoform": "",
@@ -19591,6 +20101,28 @@
             "CBL-SL",
             "RNF57",
             "CBL-3"
+        ]
+    },
+    {
+        "hugoSymbol": "CCAR1",
+        "entrezGeneId": 55749,
+        "grch37Isoform": "ENST00000265872",
+        "grch37RefSeq": "NM_018237.2",
+        "grch38Isoform": "ENST00000265872",
+        "grch38RefSeq": "NM_018237.4",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "TSG",
+        "geneAliases": [
+            "FLJ10590",
+            "CARP1",
+            "CARP-1"
         ]
     },
     {
@@ -19614,27 +20146,6 @@
             "D10S170",
             "TST1",
             "H4"
-        ]
-    },
-    {
-        "hugoSymbol": "CCNB1IP1",
-        "entrezGeneId": 57820,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
-        "occurrenceCount": 1,
-        "mSKImpact": false,
-        "mSKHeme": false,
-        "foundation": false,
-        "foundationHeme": false,
-        "vogelstein": false,
-        "sangerCGC": true,
-        "geneType": null,
-        "geneAliases": [
-            "C14orf18",
-            "HEI10"
         ]
     },
     {
@@ -19780,27 +20291,6 @@
         ]
     },
     {
-        "hugoSymbol": "CHCHD7",
-        "entrezGeneId": 79145,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
-        "occurrenceCount": 1,
-        "mSKImpact": false,
-        "mSKHeme": false,
-        "foundation": false,
-        "foundationHeme": false,
-        "vogelstein": false,
-        "sangerCGC": true,
-        "geneType": null,
-        "geneAliases": [
-            "MGC2217",
-            "COX23"
-        ]
-    },
-    {
         "hugoSymbol": "CHIC2",
         "entrezGeneId": 26511,
         "grch37Isoform": "",
@@ -19865,26 +20355,28 @@
         ]
     },
     {
-        "hugoSymbol": "CILK1",
-        "entrezGeneId": 22858,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
+        "hugoSymbol": "CHUK",
+        "entrezGeneId": 1147,
+        "grch37Isoform": "ENST00000370397",
+        "grch37RefSeq": "NM_001278.3",
+        "grch38Isoform": "ENST00000370397",
+        "grch38RefSeq": "NM_001278.5",
+        "oncokbAnnotated": true,
         "occurrenceCount": 1,
         "mSKImpact": false,
         "mSKHeme": false,
         "foundation": false,
-        "foundationHeme": true,
+        "foundationHeme": false,
         "vogelstein": false,
         "sangerCGC": false,
-        "geneType": null,
+        "geneType": "ONCOGENE_AND_TSG",
         "geneAliases": [
-            "ICK",
-            "MGC46090",
-            "LCK2",
-            "KIAA0936"
+            "IkBKA",
+            "TCF16",
+            "IKK-alpha",
+            "NFKBIKA",
+            "IKK1",
+            "IKKA"
         ]
     },
     {
@@ -19905,29 +20397,6 @@
         "geneType": null,
         "geneAliases": [
             "ckshs1"
-        ]
-    },
-    {
-        "hugoSymbol": "CLIP1",
-        "entrezGeneId": 6249,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
-        "occurrenceCount": 1,
-        "mSKImpact": false,
-        "mSKHeme": false,
-        "foundation": false,
-        "foundationHeme": false,
-        "vogelstein": false,
-        "sangerCGC": true,
-        "geneType": null,
-        "geneAliases": [
-            "CYLN1",
-            "CLIP170",
-            "CLIP-170",
-            "RSN"
         ]
     },
     {
@@ -19997,6 +20466,24 @@
             "KIAA0691",
             "LENG2"
         ]
+    },
+    {
+        "hugoSymbol": "COL5A1",
+        "entrezGeneId": 1289,
+        "grch37Isoform": "ENST00000371817",
+        "grch37RefSeq": "NM_001278074.1",
+        "grch38Isoform": "ENST00000371817",
+        "grch38RefSeq": "NM_000093.5",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE",
+        "geneAliases": []
     },
     {
         "hugoSymbol": "CPS1",
@@ -20143,6 +20630,28 @@
             "CYP17",
             "P450C17",
             "CPT7"
+        ]
+    },
+    {
+        "hugoSymbol": "D2HGDH",
+        "entrezGeneId": 728294,
+        "grch37Isoform": "ENST00000321264",
+        "grch37RefSeq": "NM_152783.3",
+        "grch38Isoform": "ENST00000321264",
+        "grch38RefSeq": "NM_152783.5",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE_AND_TSG",
+        "geneAliases": [
+            "D2HGD",
+            "FLJ42195",
+            "MGC25181"
         ]
     },
     {
@@ -20600,6 +21109,27 @@
             "CKN2",
             "ARMD5",
             "RAD26"
+        ]
+    },
+    {
+        "hugoSymbol": "ESCO1",
+        "entrezGeneId": 114799,
+        "grch37Isoform": "ENST00000269214",
+        "grch37RefSeq": "NM_052911.2",
+        "grch38Isoform": "ENST00000269214",
+        "grch38RefSeq": "NM_052911.3",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "EFO1",
+            "KIAA1911"
         ]
     },
     {
@@ -21244,6 +21774,26 @@
         "geneAliases": []
     },
     {
+        "hugoSymbol": "GSTO1",
+        "entrezGeneId": 9446,
+        "grch37Isoform": "ENST00000369713",
+        "grch37RefSeq": "NM_004832.2",
+        "grch38Isoform": "ENST00000369713",
+        "grch38RefSeq": "NM_004832.3",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "GSTTLp28"
+        ]
+    },
+    {
         "hugoSymbol": "GSTP1",
         "entrezGeneId": 2950,
         "grch37Isoform": "ENST00000398606",
@@ -21622,6 +22172,27 @@
         "geneAliases": [
             "TCGF",
             "IL-2"
+        ]
+    },
+    {
+        "hugoSymbol": "IL2RA",
+        "entrezGeneId": 3559,
+        "grch37Isoform": "ENST00000379959",
+        "grch37RefSeq": "NM_000417.2",
+        "grch38Isoform": "ENST00000379959",
+        "grch38RefSeq": "NM_000417.3",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "NEITHER",
+        "geneAliases": [
+            "IL2R",
+            "IDDM10"
         ]
     },
     {
@@ -22256,6 +22827,24 @@
         ]
     },
     {
+        "hugoSymbol": "LZTS1",
+        "entrezGeneId": 11178,
+        "grch37Isoform": "ENST00000381569",
+        "grch37RefSeq": "",
+        "grch38Isoform": "ENST00000381569",
+        "grch38RefSeq": "NM_021020.5",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "TSG",
+        "geneAliases": []
+    },
+    {
         "hugoSymbol": "MAGED1",
         "entrezGeneId": 9500,
         "grch37Isoform": "",
@@ -22300,10 +22889,10 @@
     {
         "hugoSymbol": "MAL2",
         "entrezGeneId": 114569,
-        "grch37Isoform": "ENST00000576892",
-        "grch37RefSeq": "NM_152274.4",
-        "grch38Isoform": "ENST00000576892",
-        "grch38RefSeq": "NM_152274.4",
+        "grch37Isoform": "ENST00000276681",
+        "grch37RefSeq": "",
+        "grch38Isoform": "ENST00000614891",
+        "grch38RefSeq": "",
         "oncokbAnnotated": true,
         "occurrenceCount": 1,
         "mSKImpact": false,
@@ -22381,6 +22970,27 @@
         ]
     },
     {
+        "hugoSymbol": "MASTL",
+        "entrezGeneId": 84930,
+        "grch37Isoform": "ENST00000375940",
+        "grch37RefSeq": "",
+        "grch38Isoform": "ENST00000375940",
+        "grch38RefSeq": "NM_001172303.3",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "Gwl",
+            "FLJ14813"
+        ]
+    },
+    {
         "hugoSymbol": "MBD4",
         "entrezGeneId": 8930,
         "grch37Isoform": "ENST00000249910",
@@ -22417,6 +23027,24 @@
         "geneAliases": [
             "KIAA1887"
         ]
+    },
+    {
+        "hugoSymbol": "MDH2",
+        "entrezGeneId": 4191,
+        "grch37Isoform": "ENST00000315758",
+        "grch37RefSeq": "NM_005918.2",
+        "grch38Isoform": "ENST00000315758",
+        "grch38RefSeq": "NM_005918.4",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "INSUFFICIENT_EVIDENCE",
+        "geneAliases": []
     },
     {
         "hugoSymbol": "MDS2",
@@ -22793,26 +23421,6 @@
         ]
     },
     {
-        "hugoSymbol": "NFKBIE",
-        "entrezGeneId": 4794,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
-        "occurrenceCount": 1,
-        "mSKImpact": false,
-        "mSKHeme": false,
-        "foundation": false,
-        "foundationHeme": false,
-        "vogelstein": false,
-        "sangerCGC": true,
-        "geneType": null,
-        "geneAliases": [
-            "IKBE"
-        ]
-    },
-    {
         "hugoSymbol": "NHERF1",
         "entrezGeneId": 9368,
         "grch37Isoform": "ENST00000262613",
@@ -22901,6 +23509,30 @@
             "QR1",
             "DIA4",
             "DHQU"
+        ]
+    },
+    {
+        "hugoSymbol": "NT5E",
+        "entrezGeneId": 4907,
+        "grch37Isoform": "ENST00000257770",
+        "grch37RefSeq": "NM_002526.3",
+        "grch38Isoform": "ENST00000257770",
+        "grch38RefSeq": "NM_002526.4",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "CD73",
+            "eN",
+            "eNT",
+            "CALJA",
+            "NT5"
         ]
     },
     {
@@ -23599,12 +24231,34 @@
         "foundationHeme": false,
         "vogelstein": false,
         "sangerCGC": false,
-        "geneType": "ONCOGENE_AND_TSG",
+        "geneType": "ONCOGENE",
         "geneAliases": [
             "PRKCB2",
             "PRKCB1",
             "PKCB",
             "PKC\u03b2"
+        ]
+    },
+    {
+        "hugoSymbol": "PRMT5",
+        "entrezGeneId": 10419,
+        "grch37Isoform": "ENST00000324366",
+        "grch37RefSeq": "NM_006109.3",
+        "grch38Isoform": "ENST00000324366",
+        "grch38RefSeq": "NM_006109.5",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "ONCOGENE",
+        "geneAliases": [
+            "SKB1",
+            "SKB1Hs",
+            "HRMT1L5"
         ]
     },
     {
@@ -23707,26 +24361,6 @@
         "geneType": null,
         "geneAliases": [
             "BRK"
-        ]
-    },
-    {
-        "hugoSymbol": "PTK7",
-        "entrezGeneId": 5754,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
-        "occurrenceCount": 1,
-        "mSKImpact": false,
-        "mSKHeme": false,
-        "foundation": false,
-        "foundationHeme": true,
-        "vogelstein": false,
-        "sangerCGC": false,
-        "geneType": null,
-        "geneAliases": [
-            "CCK4"
         ]
     },
     {
@@ -24094,10 +24728,10 @@
     {
         "hugoSymbol": "RPS15",
         "entrezGeneId": 6209,
-        "grch37Isoform": "ENST00000592588",
+        "grch37Isoform": "ENST00000586686",
         "grch37RefSeq": "NM_001018",
-        "grch38Isoform": "ENST00000593052",
-        "grch38RefSeq": "NM_001308226",
+        "grch38Isoform": "ENST00000592588",
+        "grch38RefSeq": "NM_001018",
         "oncokbAnnotated": true,
         "occurrenceCount": 1,
         "mSKImpact": false,
@@ -25286,6 +25920,28 @@
         ]
     },
     {
+        "hugoSymbol": "TNFRSF9",
+        "entrezGeneId": 3604,
+        "grch37Isoform": "ENST00000377507",
+        "grch37RefSeq": "NM_001561.5",
+        "grch38Isoform": "ENST00000377507",
+        "grch38RefSeq": "NM_001561.6",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "NEITHER",
+        "geneAliases": [
+            "4-1BB",
+            "CD137",
+            "ILA"
+        ]
+    },
+    {
         "hugoSymbol": "TNFSF13",
         "entrezGeneId": 8741,
         "grch37Isoform": "ENST00000338784",
@@ -25345,6 +26001,27 @@
         "geneType": "ONCOGENE",
         "geneAliases": [
             "TOP2"
+        ]
+    },
+    {
+        "hugoSymbol": "TOX",
+        "entrezGeneId": 9760,
+        "grch37Isoform": "ENST00000361421",
+        "grch37RefSeq": "NM_014729.2",
+        "grch38Isoform": "ENST00000361421",
+        "grch38RefSeq": "NM_014729.3",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "INSUFFICIENT_EVIDENCE",
+        "geneAliases": [
+            "TOX1",
+            "KIAA0808"
         ]
     },
     {
@@ -25563,7 +26240,7 @@
         "foundationHeme": false,
         "vogelstein": false,
         "sangerCGC": false,
-        "geneType": "ONCOGENE",
+        "geneType": "INSUFFICIENT_EVIDENCE",
         "geneAliases": [
             "GXP1",
             "UBE1X",
@@ -25773,6 +26450,28 @@
         ]
     },
     {
+        "hugoSymbol": "WWOX",
+        "entrezGeneId": 51741,
+        "grch37Isoform": "ENST00000566780",
+        "grch37RefSeq": "NM_016373.2",
+        "grch38Isoform": "ENST00000566780",
+        "grch38RefSeq": "NM_016373.4",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "TSG",
+        "geneAliases": [
+            "SDR41C1",
+            "FOR",
+            "WOX1"
+        ]
+    },
+    {
         "hugoSymbol": "WWP1",
         "entrezGeneId": 11059,
         "grch37Isoform": "ENST00000265428",
@@ -25814,6 +26513,24 @@
         ]
     },
     {
+        "hugoSymbol": "XRCC3",
+        "entrezGeneId": 7517,
+        "grch37Isoform": "ENST00000555055",
+        "grch37RefSeq": "NM_005432.3",
+        "grch38Isoform": "ENST00000555055",
+        "grch38RefSeq": "NM_005432.4",
+        "oncokbAnnotated": true,
+        "occurrenceCount": 1,
+        "mSKImpact": false,
+        "mSKHeme": false,
+        "foundation": false,
+        "foundationHeme": false,
+        "vogelstein": false,
+        "sangerCGC": false,
+        "geneType": "TSG",
+        "geneAliases": []
+    },
+    {
         "hugoSymbol": "YPEL5",
         "entrezGeneId": 51646,
         "grch37Isoform": "",
@@ -25831,26 +26548,6 @@
         "geneType": null,
         "geneAliases": [
             "CGI-127"
-        ]
-    },
-    {
-        "hugoSymbol": "YWHAE",
-        "entrezGeneId": 7531,
-        "grch37Isoform": "",
-        "grch37RefSeq": "",
-        "grch38Isoform": "",
-        "grch38RefSeq": "",
-        "oncokbAnnotated": false,
-        "occurrenceCount": 1,
-        "mSKImpact": false,
-        "mSKHeme": false,
-        "foundation": false,
-        "foundationHeme": false,
-        "vogelstein": false,
-        "sangerCGC": true,
-        "geneType": null,
-        "geneAliases": [
-            "FLJ45465"
         ]
     },
     {
@@ -25912,7 +26609,7 @@
         "foundationHeme": false,
         "vogelstein": false,
         "sangerCGC": false,
-        "geneType": "ONCOGENE_AND_TSG",
+        "geneType": "ONCOGENE",
         "geneAliases": [
             "ODA-8S",
             "DPZF",
